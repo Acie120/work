@@ -1,0 +1,17 @@
+name: MoleHunt
+version: '${project.version}'
+main: com.molehunt.plugin.MoleHuntPlugin
+api-version: 1.21
+description: A Mole Hunt minigame where moles hide among speedrunners.
+authors: [MoleHunt]
+
+commands:
+  startmolehunt:
+    description: Starts the MoleHunt game.
+    usage: /startmolehunt
+    permission: molehunt.start
+
+permissions:
+  molehunt.start:
+    description: Allows starting the MoleHunt game.
+    default: op

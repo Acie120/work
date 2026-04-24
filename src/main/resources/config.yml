@@ -1,0 +1,12 @@
+# MoleHunt Configuration
+
+# Number of moles to assign at game start (default: 2)
+mole-count: 2
+
+# TP radius range (players are teleported to a random location within this range)
+# Min and max are measured from world origin (0,0)
+tp-radius-min: 300
+tp-radius-max: 900
+
+# World border size (diameter in blocks, centered on world origin)
+border-size: 1200
